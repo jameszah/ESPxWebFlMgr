@@ -8,9 +8,9 @@ esp32_sd_file_manager
   
   https://github.com/jameszah/ESPxWebFlMgr  
   
-  Amusing MIT licencse here: 
-  https://github.com/jameszah/ESPxWebFlMgr/blob/master/LICENSE
-  https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE
+  Amusing MIT licencse here:   
+  https://github.com/jameszah/ESPxWebFlMgr/blob/master/LICENSE  
+  https://github.com/holgerlembke/ESPxWebFlMgr/blob/master/LICENSE  
   
   This is based on the orignal work that does the same thing for esp8266 and esp32 using the SPIFFS and LittleFS
   file systems, which are the file systems in the flash of the esp32/8266 devices. 
@@ -65,10 +65,10 @@ Notes:
 2.  Downloading files from subfolder gives the name "subfolder_file.txt" rather than creating a subfolder on your computer
 3.  When you download zip, the zip will contain the subfolders with proper filenames
 4.  Download is about 3.5 Mbps for regular files, and less for zips depending on the other cpu reqirements on your esp32
-5.  Zero size files cannot be downloaded individually, but can within a zip (i think ?)
+5.  Zero size files cannot be downloaded within a zip so are ignored
 6.  See here for adding file manager to your own project https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior
 
-You just need to add the include, and the two calls as below:
+You just need to add the include, declaration and the two calls as below:
 
 ```
 #include "ESPxWebFlMgr.h"
