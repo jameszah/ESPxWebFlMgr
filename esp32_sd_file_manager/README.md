@@ -2,7 +2,7 @@
 
 Circles from top to bottom
 
-1. SD card size and free space
+1. SD card size and used space
 2. Click here to return to the root directory of SD card
 3. Folders are colored whitish, click to enter folder, files alternate with the orange/blue
 4. Click on the file to download it to your browser/computer
