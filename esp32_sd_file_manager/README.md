@@ -60,6 +60,10 @@ Circles from top to bottom
 8. E for edit the file - only for text files
 9. Make a zip or all files and download
 
+Jan 12, 2022 - add date and time to filenames
+![screen](https://github.com/jameszah/ESPxWebFlMgr/blob/master/esp32_sd_file_manager/newfm.jpg)
+
+
 Notes:
 1.  Drag and drop files from your computer to your browser at "File Drop Zone", and they will upload to current folder
 2.  Downloading files from subfolder gives the name "subfolder_file.txt" rather than creating a subfolder on your computer
